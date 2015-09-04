@@ -11,3 +11,10 @@ Why pay a fortune teller when you can just program your fortune yourself?
 */
 
 // write your solution here...
+
+var numkids =2;
+var local = "miami";
+var spouse = "Y";
+var job ="IT";
+console.log ("You will be a "+ job + " in "+ local + ", and married to "
++ spouse + " with "+ numkids + " kids.");

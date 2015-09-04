@@ -10,3 +10,9 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+year = 2015;
+byear = 1980 ;
+
+age1 = 2015 - 1980;
+age2 = age1 - 1 ;
+console.log ("They are either "+ age1 + " or " + age2);
