@@ -17,4 +17,18 @@ For example:
 
 function notBad(sentence) {
   // write your solution here...
+ var pos1 = sentence.search('not');
+ var pos2 = sentence.search('bad')
+
+ if  ( (pos1 != -1) && (pos2 != -1) && (pos2 > pos1) )
+  var newsent = sentence.slice(0, pos1) + "good"
+  else {
+    newsent = sentence;
+  }
+
+  console.log (newsent);
 }
+
+notBad('This dinner is not that bad!');
+notBad('This movie is not so bad!');
+notBad('This dinner is bad!');

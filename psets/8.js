@@ -18,4 +18,27 @@ For example:
 
 function verbing(word) {
   // write your solution here...
-}
+  if ( word.length >= 3)
+  {
+    if (word.slice(-3)  == "ing")
+    {
+      var newword = word + "ly"
+    }
+    else {
+      newword = word + "ing"
+    };
+  }
+    else {
+      newword = word;
+    };
+
+console.log(newword);
+};
+
+/* console.log (verbing('swim'));
+console.log (verbing('swimming'));
+console.log (verbing('go'));   */
+
+verbing('swim');
+verbing('swimming');
+verbing('go');
