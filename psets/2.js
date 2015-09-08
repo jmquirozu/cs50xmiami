@@ -12,3 +12,8 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+var age = 42;
+var agemax = 100;
+var dayamt = 3;
+var total = (agemax - age) *dayamt ;
+console.log("you will need " + total + " to last you until the ripe old age of " + agemax);

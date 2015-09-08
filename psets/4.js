@@ -11,3 +11,11 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+var tempC = 100;
+
+var tempF =  (tempC * 9 / 5) + 32;
+console.log (tempC + " C is " + tempF + "F");
+
+tempF = 78;
+tempC = (tempF - 32) * 5 / 9 ;
+console.log (tempF + "F is "+ tempC);
