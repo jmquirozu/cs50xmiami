@@ -10,3 +10,11 @@ Write a function named tellFortune that:
 */
 
 // write your solution here...
+function tellFortune(numchi, parnam, geoloc, jobtit ){
+
+  console.log ("You will be a "+ jobtit + " in "+geoloc+", and married to "+parnam+" with "+ numchi+" kids.");
+}
+
+tellFortune(1, "ana", "mia", "lawyer" );
+tellFortune(2, "bea", "col", "doctor" );
+tellFortune(1, "carmen", "nyc", "it" );

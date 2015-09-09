@@ -12,3 +12,13 @@ Write a function named calculateSupply that:
 */
 
 // write your solution here...
+function calculateSupply(age,dayamt){
+  var agemax = 100;
+
+  var total = Math.round((agemax - age) * dayamt ) ;
+  console.log("you will need " + total + " to last you until the ripe old age of " + agemax);
+};
+
+calculateSupply(40, 3);
+calculateSupply(30, 2);
+calculateSupply(20, 1.23);
