@@ -1,0 +1,44 @@
+body {
+    padding-top: 50px;
+}
+.starter-template{
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+++++++
+
+body {
+ padding-top: 50px;
+}
+.starter-template {
+ padding: 40px 15px;
+ text-align: center;
+}
+
+#sidebar {
+ background: yellow;
+ min-height: 300px;
+}
+
+#chat {
+ background: skyblue;
+ min-height: 300px;
+}
+
+lillian.a [9:17 PM]
+<div class="container-fluid">
+       <div class="row">
+         <div id="sidebar" class="col-md-2 hidden-xs">
+         </div>
+         <div id="chat" class="col-md-10">
+         </div>
+       </div>
+   </div>
+
+lillian.a [9:18 PM]
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Custom styles for this template -->
+   <link href="style.css" rel="stylesheet">

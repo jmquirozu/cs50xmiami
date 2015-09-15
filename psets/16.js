@@ -11,3 +11,6 @@ and log the result to make sure it works.
 */
 
 // write your solution here...
+function helloworld(lan){
+  
+}

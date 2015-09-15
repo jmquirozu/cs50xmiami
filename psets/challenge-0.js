@@ -27,3 +27,15 @@ Write a function that will take one argument (a number) and perform the followin
 */
 
 // write your solution here...
+
+function squareNumber(num){
+  var sq = num * num;
+  console.log("The result of squaring the number "+ num +" is "+sq);
+
+  function halfNumber(num){
+    var half = num / 2;
+    console.log("Half of " + num +" is "+ half);
+  };
+
+squareNumber(3);
+ halfNumber(10);
